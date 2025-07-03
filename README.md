@@ -39,6 +39,8 @@ capappSHM/
    ```env
    TELEGRAM_BOT_TOKEN=your_telegram_bot_token
    API_KEY=your_api_key
+   MINT_COUNT=10
+   TOKEN_AMOUNT=10
    ```
 
    Gantilah `your_telegram_bot_token` dan `your_api_key` dengan informasi yang sesuai.
@@ -48,16 +50,15 @@ capappSHM/
    Buat file `wallets.json` dan tambahkan daftar dompet kripto yang ingin dipantau:
 
    ```json
-[
-  { "address": "", "private_key": "" },
-  { "address": "", "private_key": "" },
-  { "address": "", "private_key": "" },
-  { "address": "", "private_key": "" },
-  { "address": "", "private_key": "" },
-  { "address": "", "private_key": "" },
-  { "address": "", "private_key": "" },
-  { "address": "", "private_key": "" }
-]
+   [
+    { "address": "", "private_key": "" },
+    { "address": "", "private_key": "" },
+    { "address": "", "private_key": "" },
+    { "address": "", "private_key": "" },
+    { "address": "", "private_key": "" },
+    { "address": "", "private_key": "" },
+    { "address": "", "private_key": "" }
+   ]
    ```
 
 ## Penggunaan
