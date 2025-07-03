@@ -15,8 +15,8 @@ TOKEN_AMOUNT = int(os.getenv("TOKEN_AMOUNT", 1000))
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
-DELAY_MIN = 10
-DELAY_MAX = 20
+DELAY_MIN = 1
+DELAY_MAX = 3
 
 # === TELEGRAM ===
 tg_bot = Bot(token=BOT_TOKEN)
